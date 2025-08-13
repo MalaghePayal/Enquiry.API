@@ -8,7 +8,9 @@ namespace Enquiry.API.Model
         {
             
         }
+        public DbSet<EnquiryStatus> EnquiryStatuses { get; set; }
+        public DbSet<EnquiryType> EnquiryTypes { get; set; }
 
-
+        public DbSet<EnquiryModel> EnquiryModels { get; set; }
     }
 }
